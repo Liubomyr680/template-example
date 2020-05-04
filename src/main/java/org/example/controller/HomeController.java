@@ -22,6 +22,7 @@ public class HomeController extends HttpServlet {
     /**
      * <script src="https://kit.fontawesome.com/aac0f778d8.js" crossorigin="anonymous"></script>
      */
+
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
         log.info("Visited Welcome page!");
         response.setCharacterEncoding("UTF-8");
